@@ -1,7 +1,14 @@
-SKF
-DFGJ
+本课题涉及到四个程序，分别为test.R、test1.R、phenotype_Analysis.R、omics.R
 
+test.R主要包括泛癌的tp53突变数据的下载和处理得到最终Result2.txt（第2342行），27个癌症的4种pipeline的突变信息的下载及处理，
+27个癌症的CNV信息、miRNA数据、Gene Expression count数据下载（fpkm从TCGA简易小工具下载），
+gene fpkm的处理（mutation、nomutation、mutation/nomutation样本），7种模式定义、聚类、表型分析、HR、免疫分析、网络图分析等。
 
+test1.R主要包括27cancer的突变、不突变样本、单突变样本、多突变样本做6种免疫细胞类型的purity纯度，19个癌症的lncRNA、miRNA的数据处理，
+癌症的gene，miRNA，lincRNA数据整合及分析，fc滑窗、domain、hotspot、突变类型、突变区域的生存、HR分析。
 
+phenotype_Analysis.R主要包括27种癌症的GDC_phenotype、GDC_survival分析，药物细胞系（邹轩轩）154临床基因与tp53关系分析，
+每个癌症的样本所对应的亚型TCGA molecular subtypes下载及分析。
 
-SFJGO
+omics.R主要对Allcancer2_class4_manhattan_ward.D进行多组学数据（突变、拷贝数变异、mRNA-FPKM、miRNA-RPKM、lncRNA-RPkM）处理。
+
